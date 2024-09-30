@@ -166,6 +166,8 @@ void    bookdetails()
     char details[50];
     int i;
 
+    i = 0;
+
     printf("\nenter the book's name you want details about: ");
     scanf("%s", details);
     while(i < bookcount)
